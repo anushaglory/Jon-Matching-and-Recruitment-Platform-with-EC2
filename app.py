@@ -4,7 +4,7 @@ from datetime import datetime
 from bson.objectid import ObjectId
 
 
-cluster=MongoClient("mongodb+srv://anushaglory:anushaglory@jobportal.59v09.mongodb.net/?retryWrites=true&w=majority&appName=Jobportal")
+cluster=MongoClient("mongodb+srv://anushaglory12:123456789Anusha@job-portal.0bmkr.mongodb.net/")
 db=cluster['hirehub']
 users=db['users']
 companies=db['companies']
